@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john.doe@example.com",
+      "password": "aGFzaGVkcGFzc3dvcmQxMjM=",
+      "role": "admin",
+      "status": "active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "email": "jane.smith@example.com",
+      "password": "aGFzaGVkcGFzc3dvcmQxMjM=",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2024-01-02T00:00:00.000Z"
+    },
+    {
+      "firstName": "Nemish",
+      "lastName": "Bhayani",
+      "email": "nemish@gmail.com",
+      "password": "TmVtaXNoQDEyMw==",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2024-12-03T06:29:28.787Z",
+      "id": 3
+    },
+    {
+      "firstName": "Herish",
+      "lastName": "Chaniyara",
+      "email": "herish@gmail.com",
+      "password": "SGVyaXNoQDEyMw==",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2024-12-03T07:20:42.480Z",
+      "id": 4
+    },
+    {
+      "firstName": "Prince",
+      "lastName": "Savaliya",
+      "email": "prince@gmail.com",
+      "password": "UHJpbmNlQDEyMw==",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2024-12-03T07:38:15.598Z",
+      "id": 5
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "name": "Admin",
+      "permissions": [
+        "read:users",
+        "write:users",
+        "manage:roles"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "User",
+      "permissions": [
+        "read:profile"
+      ]
+    }
+  ]
+}
